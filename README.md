@@ -1,6 +1,4 @@
-# Portfoli_profile
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,22 +11,37 @@
             padding: 0;
             background-color: #f4f4f4;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
+        .hero {
+            height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             color: #fff;
-            padding: 30px 0;
             text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-top: 20px;
         }
         nav ul {
             padding: 0;
             list-style: none;
             text-align: center;
             background: #444;
+            margin: 0;
         }
         nav ul li {
             display: inline;
@@ -38,10 +51,17 @@
             color: #fff;
             text-decoration: none;
         }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
         section {
             background: #fff;
             padding: 20px;
             margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h2 {
             color: #333;
@@ -57,7 +77,8 @@
 </head>
 <body>
 
-<header>
+<header class="hero">
+    <img src="profile_photo.jpg" alt="Profile Photo" class="profile-photo">
     <h1>Tiriveedhi Sai Venkatesh</h1>
     <p>Boomi Integration Developer</p>
 </header>
@@ -80,47 +101,4 @@
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>SQL</li>
-            <li>PL/SQL</li>
-            <li>XML</li>
-            <li>JSON</li>
-            <li>Teamwork</li>
-            <li>Communication</li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <h3>Boomi Integration Developer – Capgemini (2.6 years)</h3>
-        <ul>
-            <li>Developed and maintained integration solutions using Boomi</li>
-            <li>Worked with various connectors like NetSuite, Salesforce, WSS, Http client, Onetrust, Webhost, Snowflake, Anaplan, Database, Google sheet and drive, Local Disk etc.</li>
-            <li>Solved complex problems and optimized integration processes</li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>B.Tech in Computer Science</strong><br>Ramachandra College of Engineering, 2018–2022</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>IoT Based Agriculture</h3>
-        <p>An IoT-based project aimed at improving agricultural practices through technology.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: venkatesh@gmaul.com</p>
-        <p>Phone: 123456322434</p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/venkatesh</a></p>
-        <p>GitHub: <a href="#">github.com/venkatesh</a></p>
-    </section>
-</div>
-
-</body>
-</html>
+        <h2>Skills</h2
