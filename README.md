@@ -101,4 +101,65 @@
     </section>
 
     <section id="skills">
-        <h2>Skills</h2
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>SQL</li>
+            <li>PL/SQL</li>
+            <li>XML</li>
+            <li>JSON</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse; background-color: #fff;">
+            <thead style="background-color: #ddd;">
+                <tr>
+                    <th>Role</th>
+                    <th>Company</th>
+                    <th>Duration</th>
+                    <th>Responsibilities</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Boomi Integration Developer</td>
+                    <td>Capgemini</td>
+                    <td>2.6 years</td>
+                    <td>
+                        <ul>
+                            <li>Developed and maintained integration solutions using Boomi</li>
+                            <li>Worked with connectors like NetSuite, Salesforce, WSS, Http client, Onetrust, Webhost, Snowflake, Anaplan, Database, Google Sheets and Drive, Local Disk</li>
+                            <li>Solved complex problems and optimized integration processes</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech in Computer Science</strong><br>Ramachandra College of Engineering, 2018–2022</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>IoT Based Agriculture</h3>
+        <p>An IoT-based project aimed at improving agricultural practices through technology.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: venkatesh@gmaul.com</p>
+        <p>Phone: 123456322434</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/venkatesh</a></p>
+        <p>GitHub: <a href="#">github.com/venkatesh</a></p>
+    </section>
+</div>
+
+</body>
+</html>
